@@ -6,6 +6,7 @@ import type { Theme } from '@unocss/preset-uno';
 export function presetSoybeanAdmin(): Preset<Theme> {
   const preset: Preset<Theme> = {
     name: 'preset-soybean-admin',
+    // unocss可以内置很多的快捷指令
     shortcuts: [
       {
         'flex-center': 'flex justify-center items-center',
