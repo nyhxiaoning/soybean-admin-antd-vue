@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        display: grid;
+        grid-template-rows: auto 1fr auto; /* 页眉、内容、页脚 */
+        min-height: 100vh;
+        margin: 0;
+      }
+
+      header {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+
+      main {
+        background-color: #f0f0f0;
+        padding: 20px;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>页眉</h1>
+    </header>
+    <main>
+      <p>主要内容区域</p>
+    </main>
+    <footer>
+      <p>页脚</p>
+    </footer>
+  </body>
+</html>
